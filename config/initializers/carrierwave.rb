@@ -6,5 +6,6 @@ CarrierWave.configure do |config|
   }
   config.fog_directory  = ENV["fog_directory"]               # required
   storage = Fog::Storage.new(credentials.merge({:region => DEFAULT_REGION}))
+
 end
 
