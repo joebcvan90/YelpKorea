@@ -28,9 +28,9 @@ gem 'spring', group: :development
 gem 'rails_12factor', group: :production
 gem 'pg', group: :production
 gem 'carrierwave'
-gem "fog"
+gem 'fog'
 
-gem "figaro", '~> 1.0.0'
+gem 'figaro', '~> 1.0.0'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
