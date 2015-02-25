@@ -1,3 +1,7 @@
+require 'rubygems' 
+require 'excon' 
+Excon.ssl_verify_peer = false 
+
 CarrierWave.configure do |config|
   config.fog_credentials = {
     :provider               => 'AWS',                        # required
