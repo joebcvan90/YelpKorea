@@ -11,7 +11,7 @@
 
 	<%= render 'layouts/navbar' %>
 	<div class="container-fluid">
-	<p class="notice"><%= notice %></p>
+
 
 		    <% flash.each do |name, msg| %>
 		      <% if msg.is_a?(String) %>
@@ -21,7 +21,7 @@
 		        </div>
 		      <% end %>
 		    <% end %> 
-    
+
 		<%= yield %>
 		<%= render 'layouts/footer' %>
 	</div>
