@@ -34,6 +34,8 @@ gem 'mini_magick'
 gem 'devise'
 gem 'omniauth-facebook'
 gem 'omniauth'
+gem 'font-awesome-sass'
+gem 'bootstrap-sass'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
