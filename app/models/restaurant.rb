@@ -1,9 +1,10 @@
 class Restaurant < ActiveRecord::Base
   mount_uploader :image, ImageUploader
+  mount_uploader :video, VideoUploader
 
   has_many :reviews
 
-  validates :name, :address, :phone, :website, :image, presence: true
+  validates :name, :address, :phone, :website, :image, :video, presence: true
   validates :phone, format: { with: /\A\(\d{3}\) \d{3}-\d{4}\z/,
   message: "must be in the format (123) 456-7890" }
 
